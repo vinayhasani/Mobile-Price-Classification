@@ -1,0 +1,8 @@
+all.mod <- lm(price_range ~ . , data= tr_data) 
+library(MASS)
+step_for <- stepAIC(all.mod, direction="forward", trace = FALSE)
+summary(step_for)
+step_for <- stepAIC(all.mod, direction="backward", trace = FALSE)
+summary(step_for)
+step_for <- stepAIC(all.mod, direction="both", trace = FALSE)
+summary(step_for)

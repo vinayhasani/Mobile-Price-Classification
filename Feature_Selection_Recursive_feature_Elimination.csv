@@ -1,0 +1,19 @@
+Classifiers,Performance,Performance Parameters,performance parameters,performance
+MLR,98.40,Precision,Specificity,99.43
+MLR,97.69,Accuracy,F-measure,98.40
+MLR,98.40,Recall,AUC,98.31
+KNN,98.40,Precision,Specificity,99.55
+KNN,94.93,Accuracy,F-measure,97.62
+KNN,96.85,Recall,AUC,97.95
+SVM,98.40,Precision,Specificity,99.43
+SVM,93.91,Accuracy,F-measure,98.01
+SVM,97.62,Recall,AUC,97.87
+RF,93.60,Precision,Specificity,97.73
+RF,93.07,Accuracy,F-measure,94.35
+RF,95.12,Recall,AUC,94.18
+Bayes,89.60,Precision,Specificity,96.34
+Bayes,84.03,Accuracy,F-measure,91.06
+Bayes,92.56,Recall,AUC,91.54
+CART,93.60,Precision,Specificity,97.70
+CART,84.45,Accuracy,F-measure,92.49
+CART,91.41,Recall,AUC,92.10
